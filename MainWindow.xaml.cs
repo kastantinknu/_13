@@ -33,6 +33,7 @@ namespace WpfApp12
             canvas.Children.Add(ellipse_Model._Ellipse);
             ellipse_Model._Ellipse.MouseMove += El_MouseMove;
             star_Model._Star.MouseMove += _Star_MouseMove;
+            label.Content = "Перетаскування лівою клавішею";
         }
 
         Ellipse_model ellipse_Model = new Ellipse_model();
